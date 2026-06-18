@@ -2,7 +2,6 @@ type Directions = "east" | "south" | "north" | "west"
 
 function getDirection(dir : string) : void{
     console.log(`Your direction is ${dir}`);
-    
 }
 
 const dir = "left" // ts will creates literal type to "left"
